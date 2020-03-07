@@ -1,0 +1,1166 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71983E6C2411550600E7F6A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983E6B2411550600E7F6A3 /* AppDelegate.swift */; };
+		71983E752411550700E7F6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71983E742411550700E7F6A3 /* Assets.xcassets */; };
+		71983E782411550700E7F6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71983E762411550700E7F6A3 /* LaunchScreen.storyboard */; };
+		71983E882412129700E7F6A3 /* Funbox_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 71983E862412129700E7F6A3 /* Funbox_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71983E8B2412129700E7F6A3 /* Funbox_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71983E842412129700E7F6A3 /* Funbox_iOS.framework */; };
+		71983E8C2412129700E7F6A3 /* Funbox_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71983E842412129700E7F6A3 /* Funbox_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71983E9A241212A700E7F6A3 /* Funbox_UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 71983E98241212A700E7F6A3 /* Funbox_UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71983E9D241212A700E7F6A3 /* Funbox_UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71983E96241212A700E7F6A3 /* Funbox_UIKit.framework */; };
+		71983E9E241212A700E7F6A3 /* Funbox_UIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71983E96241212A700E7F6A3 /* Funbox_UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71983EAB241212BB00E7F6A3 /* Funbox_DataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 71983EA9241212BB00E7F6A3 /* Funbox_DataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71983EAE241212BB00E7F6A3 /* Funbox_DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71983EA7241212BB00E7F6A3 /* Funbox_DataKit.framework */; };
+		71983EAF241212BB00E7F6A3 /* Funbox_DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71983EA7241212BB00E7F6A3 /* Funbox_DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71983EB5241213BA00E7F6A3 /* FunboxAppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EB4241213BA00E7F6A3 /* FunboxAppDependencyContainer.swift */; };
+		71983ED62413E18B00E7F6A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983ED52413E18B00E7F6A3 /* MainViewController.swift */; };
+		71983ED82413E1BB00E7F6A3 /* MainRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983ED72413E1BB00E7F6A3 /* MainRootView.swift */; };
+		71983EDA2413E1E300E7F6A3 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983ED92413E1E300E7F6A3 /* BrowseViewController.swift */; };
+		71983EDC2413E20600E7F6A3 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EDB2413E20600E7F6A3 /* GuideViewController.swift */; };
+		71983EDE2413E21D00E7F6A3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EDD2413E21D00E7F6A3 /* WelcomeViewController.swift */; };
+		71983EE02413E22C00E7F6A3 /* WelcomeRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EDF2413E22C00E7F6A3 /* WelcomeRootView.swift */; };
+		71983EE22413E24200E7F6A3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EE12413E24200E7F6A3 /* SignInViewController.swift */; };
+		71983EE42413E25300E7F6A3 /* SignInRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EE32413E25300E7F6A3 /* SignInRootView.swift */; };
+		71983EE62413E26500E7F6A3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EE52413E26500E7F6A3 /* SignUpViewController.swift */; };
+		71983EE82413E28800E7F6A3 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EE72413E28800E7F6A3 /* ResetPasswordViewController.swift */; };
+		71983EEA2413E2A700E7F6A3 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EE92413E2A700E7F6A3 /* LaunchViewController.swift */; };
+		71983EEC2413E2B700E7F6A3 /* LaunchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EEB2413E2B700E7F6A3 /* LaunchRootView.swift */; };
+		71983EEE2413E32600E7F6A3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EED2413E32600E7F6A3 /* MainViewModel.swift */; };
+		71983EF02413E33900E7F6A3 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EEF2413E33900E7F6A3 /* LaunchViewModel.swift */; };
+		71983EF22413E35E00E7F6A3 /* BrowseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EF12413E35E00E7F6A3 /* BrowseViewModel.swift */; };
+		71983EF42413E37800E7F6A3 /* GuideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EF32413E37800E7F6A3 /* GuideViewModel.swift */; };
+		71983EF62413E38F00E7F6A3 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EF52413E38F00E7F6A3 /* SignInViewModel.swift */; };
+		71983EF82413E39C00E7F6A3 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EF72413E39C00E7F6A3 /* WelcomeViewModel.swift */; };
+		71983EFA2413E3F400E7F6A3 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EF92413E3F400E7F6A3 /* UserSession.swift */; };
+		71983EFC2413E45500E7F6A3 /* RemoteUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EFB2413E45500E7F6A3 /* RemoteUserSession.swift */; };
+		71983F002413E4E400E7F6A3 /* UserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983EFF2413E4E400E7F6A3 /* UserSessionStore.swift */; };
+		71983F022413E53500E7F6A3 /* FileBasedUserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F012413E53500E7F6A3 /* FileBasedUserSessionStore.swift */; };
+		71983F062413E5CE00E7F6A3 /* AuthRemoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F052413E5CE00E7F6A3 /* AuthRemoteAPI.swift */; };
+		71983F082413E5E300E7F6A3 /* FakeAuthRemoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F072413E5E300E7F6A3 /* FakeAuthRemoteAPI.swift */; };
+		71983F0A2413E6B000E7F6A3 /* UserSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F092413E6B000E7F6A3 /* UserSessionRepository.swift */; };
+		71983F0C2413E6C700E7F6A3 /* FunboxUserSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F0B2413E6C700E7F6A3 /* FunboxUserSessionRepository.swift */; };
+		71983F0E2413E6FD00E7F6A3 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F0D2413E6FD00E7F6A3 /* UserProfile.swift */; };
+		71983F102413E70800E7F6A3 /* NewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F0F2413E70800E7F6A3 /* NewAccount.swift */; };
+		71983F122413E72000E7F6A3 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F112413E72000E7F6A3 /* Secret.swift */; };
+		71983F142413E98800E7F6A3 /* GuideResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F132413E98800E7F6A3 /* GuideResponder.swift */; };
+		71983F162413E9AE00E7F6A3 /* SignedInResponsder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F152413E9AE00E7F6A3 /* SignedInResponsder.swift */; };
+		71983F182413E9CC00E7F6A3 /* BrowseResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F172413E9CC00E7F6A3 /* BrowseResponder.swift */; };
+		71983F1A2413F6C800E7F6A3 /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71983F192413F6C800E7F6A3 /* NiblessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71983E892412129700E7F6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71983E602411550600E7F6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71983E832412129700E7F6A3;
+			remoteInfo = Funbox_iOS;
+		};
+		71983E9B241212A700E7F6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71983E602411550600E7F6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71983E95241212A700E7F6A3;
+			remoteInfo = Funbox_UIKit;
+		};
+		71983EAC241212BB00E7F6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71983E602411550600E7F6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71983EA6241212BB00E7F6A3;
+			remoteInfo = Funbox_DataKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71983E902412129700E7F6A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71983E8C2412129700E7F6A3 /* Funbox_iOS.framework in Embed Frameworks */,
+				71983EAF241212BB00E7F6A3 /* Funbox_DataKit.framework in Embed Frameworks */,
+				71983E9E241212A700E7F6A3 /* Funbox_UIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		71983E682411550600E7F6A3 /* FunBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71983E6B2411550600E7F6A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71983E742411550700E7F6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71983E772411550700E7F6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71983E792411550700E7F6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71983E842412129700E7F6A3 /* Funbox_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Funbox_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71983E862412129700E7F6A3 /* Funbox_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Funbox_iOS.h; sourceTree = "<group>"; };
+		71983E872412129700E7F6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71983E96241212A700E7F6A3 /* Funbox_UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Funbox_UIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71983E98241212A700E7F6A3 /* Funbox_UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Funbox_UIKit.h; sourceTree = "<group>"; };
+		71983E99241212A700E7F6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71983EA7241212BB00E7F6A3 /* Funbox_DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Funbox_DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71983EA9241212BB00E7F6A3 /* Funbox_DataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Funbox_DataKit.h; sourceTree = "<group>"; };
+		71983EAA241212BB00E7F6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71983EB4241213BA00E7F6A3 /* FunboxAppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunboxAppDependencyContainer.swift; sourceTree = "<group>"; };
+		71983ED52413E18B00E7F6A3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		71983ED72413E1BB00E7F6A3 /* MainRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRootView.swift; sourceTree = "<group>"; };
+		71983ED92413E1E300E7F6A3 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		71983EDB2413E20600E7F6A3 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		71983EDD2413E21D00E7F6A3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		71983EDF2413E22C00E7F6A3 /* WelcomeRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRootView.swift; sourceTree = "<group>"; };
+		71983EE12413E24200E7F6A3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		71983EE32413E25300E7F6A3 /* SignInRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRootView.swift; sourceTree = "<group>"; };
+		71983EE52413E26500E7F6A3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		71983EE72413E28800E7F6A3 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		71983EE92413E2A700E7F6A3 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		71983EEB2413E2B700E7F6A3 /* LaunchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRootView.swift; sourceTree = "<group>"; };
+		71983EED2413E32600E7F6A3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		71983EEF2413E33900E7F6A3 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		71983EF12413E35E00E7F6A3 /* BrowseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewModel.swift; sourceTree = "<group>"; };
+		71983EF32413E37800E7F6A3 /* GuideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewModel.swift; sourceTree = "<group>"; };
+		71983EF52413E38F00E7F6A3 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		71983EF72413E39C00E7F6A3 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		71983EF92413E3F400E7F6A3 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		71983EFB2413E45500E7F6A3 /* RemoteUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserSession.swift; sourceTree = "<group>"; };
+		71983EFF2413E4E400E7F6A3 /* UserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStore.swift; sourceTree = "<group>"; };
+		71983F012413E53500E7F6A3 /* FileBasedUserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBasedUserSessionStore.swift; sourceTree = "<group>"; };
+		71983F052413E5CE00E7F6A3 /* AuthRemoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteAPI.swift; sourceTree = "<group>"; };
+		71983F072413E5E300E7F6A3 /* FakeAuthRemoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAuthRemoteAPI.swift; sourceTree = "<group>"; };
+		71983F092413E6B000E7F6A3 /* UserSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionRepository.swift; sourceTree = "<group>"; };
+		71983F0B2413E6C700E7F6A3 /* FunboxUserSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunboxUserSessionRepository.swift; sourceTree = "<group>"; };
+		71983F0D2413E6FD00E7F6A3 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		71983F0F2413E70800E7F6A3 /* NewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccount.swift; sourceTree = "<group>"; };
+		71983F112413E72000E7F6A3 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		71983F132413E98800E7F6A3 /* GuideResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideResponder.swift; sourceTree = "<group>"; };
+		71983F152413E9AE00E7F6A3 /* SignedInResponsder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInResponsder.swift; sourceTree = "<group>"; };
+		71983F172413E9CC00E7F6A3 /* BrowseResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseResponder.swift; sourceTree = "<group>"; };
+		71983F192413F6C800E7F6A3 /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71983E652411550600E7F6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983E8B2412129700E7F6A3 /* Funbox_iOS.framework in Frameworks */,
+				71983EAE241212BB00E7F6A3 /* Funbox_DataKit.framework in Frameworks */,
+				71983E9D241212A700E7F6A3 /* Funbox_UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E812412129700E7F6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E93241212A700E7F6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983EA4241212BB00E7F6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71983E5F2411550600E7F6A3 = {
+			isa = PBXGroup;
+			children = (
+				71983E6A2411550600E7F6A3 /* FunBox */,
+				71983E852412129700E7F6A3 /* Funbox_iOS */,
+				71983E97241212A700E7F6A3 /* Funbox_UIKit */,
+				71983EA8241212BB00E7F6A3 /* Funbox_DataKit */,
+				71983E692411550600E7F6A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71983E692411550600E7F6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71983E682411550600E7F6A3 /* FunBox.app */,
+				71983E842412129700E7F6A3 /* Funbox_iOS.framework */,
+				71983E96241212A700E7F6A3 /* Funbox_UIKit.framework */,
+				71983EA7241212BB00E7F6A3 /* Funbox_DataKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71983E6A2411550600E7F6A3 /* FunBox */ = {
+			isa = PBXGroup;
+			children = (
+				71983E6B2411550600E7F6A3 /* AppDelegate.swift */,
+				71983E742411550700E7F6A3 /* Assets.xcassets */,
+				71983E762411550700E7F6A3 /* LaunchScreen.storyboard */,
+				71983E792411550700E7F6A3 /* Info.plist */,
+			);
+			path = FunBox;
+			sourceTree = "<group>";
+		};
+		71983E852412129700E7F6A3 /* Funbox_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71983EB32412133700E7F6A3 /* iOSApp */,
+				71983E862412129700E7F6A3 /* Funbox_iOS.h */,
+				71983E872412129700E7F6A3 /* Info.plist */,
+			);
+			path = Funbox_iOS;
+			sourceTree = "<group>";
+		};
+		71983E97241212A700E7F6A3 /* Funbox_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				71983EC72412165000E7F6A3 /* Transitions */,
+				71983EC62412164A00E7F6A3 /* Font */,
+				71983EC52412164100E7F6A3 /* Style */,
+				71983EC42412163400E7F6A3 /* Nibless */,
+				71983E98241212A700E7F6A3 /* Funbox_UIKit.h */,
+				71983E99241212A700E7F6A3 /* Info.plist */,
+			);
+			path = Funbox_UIKit;
+			sourceTree = "<group>";
+		};
+		71983EA8241212BB00E7F6A3 /* Funbox_DataKit */ = {
+			isa = PBXGroup;
+			children = (
+				71983ECA241216C500E7F6A3 /* Presentlayer */,
+				71983EC9241216A600E7F6A3 /* DataLayer */,
+				71983EC82412169F00E7F6A3 /* StdLib */,
+				71983EA9241212BB00E7F6A3 /* Funbox_DataKit.h */,
+				71983EAA241212BB00E7F6A3 /* Info.plist */,
+			);
+			path = Funbox_DataKit;
+			sourceTree = "<group>";
+		};
+		71983EB32412133700E7F6A3 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				71983EBC2412151E00E7F6A3 /* Main */,
+				71983EB4241213BA00E7F6A3 /* FunboxAppDependencyContainer.swift */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		71983EBC2412151E00E7F6A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				71983EBF241215B300E7F6A3 /* Browse */,
+				71983EBE241215AD00E7F6A3 /* Guide */,
+				71983EBD241215A600E7F6A3 /* Launch */,
+				71983ED52413E18B00E7F6A3 /* MainViewController.swift */,
+				71983ED72413E1BB00E7F6A3 /* MainRootView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		71983EBD241215A600E7F6A3 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				71983EE92413E2A700E7F6A3 /* LaunchViewController.swift */,
+				71983EEB2413E2B700E7F6A3 /* LaunchRootView.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		71983EBE241215AD00E7F6A3 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				71983EC3241215DC00E7F6A3 /* ResetPassword */,
+				71983EC2241215D500E7F6A3 /* SignUp */,
+				71983EC1241215CB00E7F6A3 /* SignIn */,
+				71983EC0241215C400E7F6A3 /* Welcome */,
+				71983EDB2413E20600E7F6A3 /* GuideViewController.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		71983EBF241215B300E7F6A3 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				71983ED92413E1E300E7F6A3 /* BrowseViewController.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		71983EC0241215C400E7F6A3 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				71983EDD2413E21D00E7F6A3 /* WelcomeViewController.swift */,
+				71983EDF2413E22C00E7F6A3 /* WelcomeRootView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		71983EC1241215CB00E7F6A3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				71983EE12413E24200E7F6A3 /* SignInViewController.swift */,
+				71983EE32413E25300E7F6A3 /* SignInRootView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		71983EC2241215D500E7F6A3 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				71983EE52413E26500E7F6A3 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		71983EC3241215DC00E7F6A3 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				71983EE72413E28800E7F6A3 /* ResetPasswordViewController.swift */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		71983EC42412163400E7F6A3 /* Nibless */ = {
+			isa = PBXGroup;
+			children = (
+				71983F192413F6C800E7F6A3 /* NiblessViewController.swift */,
+			);
+			path = Nibless;
+			sourceTree = "<group>";
+		};
+		71983EC52412164100E7F6A3 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		71983EC62412164A00E7F6A3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		71983EC72412165000E7F6A3 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		71983EC82412169F00E7F6A3 /* StdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StdLib;
+			sourceTree = "<group>";
+		};
+		71983EC9241216A600E7F6A3 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				71983ECC2412179500E7F6A3 /* Repositories(信息库) */,
+				71983ECB2412177900E7F6A3 /* Model */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		71983ECA241216C500E7F6A3 /* Presentlayer */ = {
+			isa = PBXGroup;
+			children = (
+				71983ECF241218AB00E7F6A3 /* Main */,
+			);
+			path = Presentlayer;
+			sourceTree = "<group>";
+		};
+		71983ECB2412177900E7F6A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71983EF92413E3F400E7F6A3 /* UserSession.swift */,
+				71983F0D2413E6FD00E7F6A3 /* UserProfile.swift */,
+				71983F0F2413E70800E7F6A3 /* NewAccount.swift */,
+				71983F112413E72000E7F6A3 /* Secret.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71983ECC2412179500E7F6A3 /* Repositories(信息库) */ = {
+			isa = PBXGroup;
+			children = (
+				71983ECE241217BE00E7F6A3 /* Persistence(本地) */,
+				71983ECD241217B700E7F6A3 /* Remote(远程) */,
+				71983F092413E6B000E7F6A3 /* UserSessionRepository.swift */,
+				71983F0B2413E6C700E7F6A3 /* FunboxUserSessionRepository.swift */,
+			);
+			path = "Repositories(信息库)";
+			sourceTree = "<group>";
+		};
+		71983ECD241217B700E7F6A3 /* Remote(远程) */ = {
+			isa = PBXGroup;
+			children = (
+				71983F042413E5B800E7F6A3 /* Implementations */,
+				71983F032413E5AB00E7F6A3 /* Protocol */,
+				71983EFB2413E45500E7F6A3 /* RemoteUserSession.swift */,
+			);
+			path = "Remote(远程)";
+			sourceTree = "<group>";
+		};
+		71983ECE241217BE00E7F6A3 /* Persistence(本地) */ = {
+			isa = PBXGroup;
+			children = (
+				71983EFE2413E4CA00E7F6A3 /* Implementations */,
+				71983EFD2413E4BB00E7F6A3 /* Protocol */,
+			);
+			path = "Persistence(本地)";
+			sourceTree = "<group>";
+		};
+		71983ECF241218AB00E7F6A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				71983ED42412190D00E7F6A3 /* Launch */,
+				71983ED3241218E400E7F6A3 /* Browse */,
+				71983ED0241218C100E7F6A3 /* Guide */,
+				71983EED2413E32600E7F6A3 /* MainViewModel.swift */,
+				71983F132413E98800E7F6A3 /* GuideResponder.swift */,
+				71983F152413E9AE00E7F6A3 /* SignedInResponsder.swift */,
+				71983F172413E9CC00E7F6A3 /* BrowseResponder.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		71983ED0241218C100E7F6A3 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				71983ED2241218D600E7F6A3 /* SignIn */,
+				71983ED1241218CC00E7F6A3 /* Welcome */,
+				71983EF32413E37800E7F6A3 /* GuideViewModel.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		71983ED1241218CC00E7F6A3 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				71983EF72413E39C00E7F6A3 /* WelcomeViewModel.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		71983ED2241218D600E7F6A3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				71983EF52413E38F00E7F6A3 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		71983ED3241218E400E7F6A3 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				71983EF12413E35E00E7F6A3 /* BrowseViewModel.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		71983ED42412190D00E7F6A3 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				71983EEF2413E33900E7F6A3 /* LaunchViewModel.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		71983EFD2413E4BB00E7F6A3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				71983EFF2413E4E400E7F6A3 /* UserSessionStore.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		71983EFE2413E4CA00E7F6A3 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				71983F012413E53500E7F6A3 /* FileBasedUserSessionStore.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		71983F032413E5AB00E7F6A3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				71983F052413E5CE00E7F6A3 /* AuthRemoteAPI.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		71983F042413E5B800E7F6A3 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				71983F072413E5E300E7F6A3 /* FakeAuthRemoteAPI.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71983E7F2412129700E7F6A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983E882412129700E7F6A3 /* Funbox_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E91241212A700E7F6A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983E9A241212A700E7F6A3 /* Funbox_UIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983EA2241212BB00E7F6A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983EAB241212BB00E7F6A3 /* Funbox_DataKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71983E672411550600E7F6A3 /* FunBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71983E7C2411550700E7F6A3 /* Build configuration list for PBXNativeTarget "FunBox" */;
+			buildPhases = (
+				71983E642411550600E7F6A3 /* Sources */,
+				71983E652411550600E7F6A3 /* Frameworks */,
+				71983E662411550600E7F6A3 /* Resources */,
+				71983E902412129700E7F6A3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71983E8A2412129700E7F6A3 /* PBXTargetDependency */,
+				71983E9C241212A700E7F6A3 /* PBXTargetDependency */,
+				71983EAD241212BB00E7F6A3 /* PBXTargetDependency */,
+			);
+			name = FunBox;
+			productName = FunBox;
+			productReference = 71983E682411550600E7F6A3 /* FunBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71983E832412129700E7F6A3 /* Funbox_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71983E8D2412129700E7F6A3 /* Build configuration list for PBXNativeTarget "Funbox_iOS" */;
+			buildPhases = (
+				71983E7F2412129700E7F6A3 /* Headers */,
+				71983E802412129700E7F6A3 /* Sources */,
+				71983E812412129700E7F6A3 /* Frameworks */,
+				71983E822412129700E7F6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Funbox_iOS;
+			productName = Funbox_iOS;
+			productReference = 71983E842412129700E7F6A3 /* Funbox_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71983E95241212A700E7F6A3 /* Funbox_UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71983E9F241212A700E7F6A3 /* Build configuration list for PBXNativeTarget "Funbox_UIKit" */;
+			buildPhases = (
+				71983E91241212A700E7F6A3 /* Headers */,
+				71983E92241212A700E7F6A3 /* Sources */,
+				71983E93241212A700E7F6A3 /* Frameworks */,
+				71983E94241212A700E7F6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Funbox_UIKit;
+			productName = Funbox_UIKit;
+			productReference = 71983E96241212A700E7F6A3 /* Funbox_UIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71983EA6241212BB00E7F6A3 /* Funbox_DataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71983EB0241212BB00E7F6A3 /* Build configuration list for PBXNativeTarget "Funbox_DataKit" */;
+			buildPhases = (
+				71983EA2241212BB00E7F6A3 /* Headers */,
+				71983EA3241212BB00E7F6A3 /* Sources */,
+				71983EA4241212BB00E7F6A3 /* Frameworks */,
+				71983EA5241212BB00E7F6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Funbox_DataKit;
+			productName = Funbox_DataKit;
+			productReference = 71983EA7241212BB00E7F6A3 /* Funbox_DataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71983E602411550600E7F6A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ty;
+				TargetAttributes = {
+					71983E672411550600E7F6A3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					71983E832412129700E7F6A3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					71983E95241212A700E7F6A3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					71983EA6241212BB00E7F6A3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 71983E632411550600E7F6A3 /* Build configuration list for PBXProject "FunBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71983E5F2411550600E7F6A3;
+			productRefGroup = 71983E692411550600E7F6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71983E672411550600E7F6A3 /* FunBox */,
+				71983E832412129700E7F6A3 /* Funbox_iOS */,
+				71983E95241212A700E7F6A3 /* Funbox_UIKit */,
+				71983EA6241212BB00E7F6A3 /* Funbox_DataKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71983E662411550600E7F6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983E782411550700E7F6A3 /* LaunchScreen.storyboard in Resources */,
+				71983E752411550700E7F6A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E822412129700E7F6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E94241212A700E7F6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983EA5241212BB00E7F6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71983E642411550600E7F6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983E6C2411550600E7F6A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E802412129700E7F6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983ED82413E1BB00E7F6A3 /* MainRootView.swift in Sources */,
+				71983EB5241213BA00E7F6A3 /* FunboxAppDependencyContainer.swift in Sources */,
+				71983EDA2413E1E300E7F6A3 /* BrowseViewController.swift in Sources */,
+				71983EE82413E28800E7F6A3 /* ResetPasswordViewController.swift in Sources */,
+				71983EEC2413E2B700E7F6A3 /* LaunchRootView.swift in Sources */,
+				71983EE42413E25300E7F6A3 /* SignInRootView.swift in Sources */,
+				71983EE62413E26500E7F6A3 /* SignUpViewController.swift in Sources */,
+				71983EE02413E22C00E7F6A3 /* WelcomeRootView.swift in Sources */,
+				71983EEA2413E2A700E7F6A3 /* LaunchViewController.swift in Sources */,
+				71983EE22413E24200E7F6A3 /* SignInViewController.swift in Sources */,
+				71983EDE2413E21D00E7F6A3 /* WelcomeViewController.swift in Sources */,
+				71983EDC2413E20600E7F6A3 /* GuideViewController.swift in Sources */,
+				71983ED62413E18B00E7F6A3 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983E92241212A700E7F6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983F1A2413F6C800E7F6A3 /* NiblessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71983EA3241212BB00E7F6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71983F182413E9CC00E7F6A3 /* BrowseResponder.swift in Sources */,
+				71983F062413E5CE00E7F6A3 /* AuthRemoteAPI.swift in Sources */,
+				71983F142413E98800E7F6A3 /* GuideResponder.swift in Sources */,
+				71983EEE2413E32600E7F6A3 /* MainViewModel.swift in Sources */,
+				71983F102413E70800E7F6A3 /* NewAccount.swift in Sources */,
+				71983F0E2413E6FD00E7F6A3 /* UserProfile.swift in Sources */,
+				71983EFC2413E45500E7F6A3 /* RemoteUserSession.swift in Sources */,
+				71983F0A2413E6B000E7F6A3 /* UserSessionRepository.swift in Sources */,
+				71983EF82413E39C00E7F6A3 /* WelcomeViewModel.swift in Sources */,
+				71983F0C2413E6C700E7F6A3 /* FunboxUserSessionRepository.swift in Sources */,
+				71983EF42413E37800E7F6A3 /* GuideViewModel.swift in Sources */,
+				71983F082413E5E300E7F6A3 /* FakeAuthRemoteAPI.swift in Sources */,
+				71983F122413E72000E7F6A3 /* Secret.swift in Sources */,
+				71983EFA2413E3F400E7F6A3 /* UserSession.swift in Sources */,
+				71983EF22413E35E00E7F6A3 /* BrowseViewModel.swift in Sources */,
+				71983EF02413E33900E7F6A3 /* LaunchViewModel.swift in Sources */,
+				71983F002413E4E400E7F6A3 /* UserSessionStore.swift in Sources */,
+				71983F162413E9AE00E7F6A3 /* SignedInResponsder.swift in Sources */,
+				71983EF62413E38F00E7F6A3 /* SignInViewModel.swift in Sources */,
+				71983F022413E53500E7F6A3 /* FileBasedUserSessionStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71983E8A2412129700E7F6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71983E832412129700E7F6A3 /* Funbox_iOS */;
+			targetProxy = 71983E892412129700E7F6A3 /* PBXContainerItemProxy */;
+		};
+		71983E9C241212A700E7F6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71983E95241212A700E7F6A3 /* Funbox_UIKit */;
+			targetProxy = 71983E9B241212A700E7F6A3 /* PBXContainerItemProxy */;
+		};
+		71983EAD241212BB00E7F6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71983EA6241212BB00E7F6A3 /* Funbox_DataKit */;
+			targetProxy = 71983EAC241212BB00E7F6A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71983E762411550700E7F6A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71983E772411550700E7F6A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71983E7A2411550700E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71983E7B2411550700E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71983E7D2411550700E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FunBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ty.FunBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71983E7E2411550700E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FunBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ty.FunBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71983E8E2412129700E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Funbox_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Funbox-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71983E8F2412129700E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Funbox_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Funbox-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71983EA0241212A700E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Funbox_UIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Funbox-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71983EA1241212A700E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Funbox_UIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Funbox-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71983EB1241212BB00E7F6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Funbox_DataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Funbox-DataKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71983EB2241212BB00E7F6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Funbox_DataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Funbox-DataKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71983E632411550600E7F6A3 /* Build configuration list for PBXProject "FunBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71983E7A2411550700E7F6A3 /* Debug */,
+				71983E7B2411550700E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71983E7C2411550700E7F6A3 /* Build configuration list for PBXNativeTarget "FunBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71983E7D2411550700E7F6A3 /* Debug */,
+				71983E7E2411550700E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71983E8D2412129700E7F6A3 /* Build configuration list for PBXNativeTarget "Funbox_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71983E8E2412129700E7F6A3 /* Debug */,
+				71983E8F2412129700E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71983E9F241212A700E7F6A3 /* Build configuration list for PBXNativeTarget "Funbox_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71983EA0241212A700E7F6A3 /* Debug */,
+				71983EA1241212A700E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71983EB0241212BB00E7F6A3 /* Build configuration list for PBXNativeTarget "Funbox_DataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71983EB1241212BB00E7F6A3 /* Debug */,
+				71983EB2241212BB00E7F6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71983E602411550600E7F6A3 /* Project object */;
+}
